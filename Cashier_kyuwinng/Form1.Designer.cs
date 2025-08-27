@@ -38,10 +38,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(197, 112);
+            this.label1.Location = new System.Drawing.Point(134, 93);
             this.label1.Margin = new System.Windows.Forms.Padding(9, 0, 9, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(321, 39);
+            this.label1.Size = new System.Drawing.Size(255, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Position in Queue";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -49,19 +49,19 @@
             // lblQueue
             // 
             this.lblQueue.AutoSize = true;
-            this.lblQueue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQueue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQueue.ForeColor = System.Drawing.Color.Black;
-            this.lblQueue.Location = new System.Drawing.Point(277, 199);
+            this.lblQueue.Location = new System.Drawing.Point(180, 159);
             this.lblQueue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQueue.Name = "lblQueue";
-            this.lblQueue.Size = new System.Drawing.Size(131, 39);
+            this.lblQueue.Size = new System.Drawing.Size(136, 40);
             this.lblQueue.TabIndex = 1;
             this.lblQueue.Text = "P-1000";
             // 
             // btnCashier
             // 
             this.btnCashier.ForeColor = System.Drawing.Color.Black;
-            this.btnCashier.Location = new System.Drawing.Point(204, 276);
+            this.btnCashier.Location = new System.Drawing.Point(85, 227);
             this.btnCashier.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCashier.Name = "btnCashier";
             this.btnCashier.Size = new System.Drawing.Size(314, 72);
@@ -75,20 +75,20 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Firebrick;
-            this.label3.Location = new System.Drawing.Point(281, 363);
+            this.label3.Location = new System.Drawing.Point(177, 315);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 15);
+            this.label3.Size = new System.Drawing.Size(139, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "*click to get a number";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // KyuwingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(24F, 42F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 34F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(712, 526);
+            this.BackColor = System.Drawing.Color.SeaShell;
+            this.ClientSize = new System.Drawing.Size(525, 416);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCashier);
             this.Controls.Add(this.lblQueue);

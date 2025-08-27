@@ -46,7 +46,7 @@
             // 
             this.label2_Cashier_Numbering.AutoSize = true;
             this.label2_Cashier_Numbering.Font = new System.Drawing.Font("Arial Rounded MT Bold", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2_Cashier_Numbering.Location = new System.Drawing.Point(109, 116);
+            this.label2_Cashier_Numbering.Location = new System.Drawing.Point(119, 110);
             this.label2_Cashier_Numbering.Name = "label2_Cashier_Numbering";
             this.label2_Cashier_Numbering.Size = new System.Drawing.Size(260, 77);
             this.label2_Cashier_Numbering.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(502, 300);
             this.Controls.Add(this.label2_Cashier_Numbering);
             this.Controls.Add(this.label1_Now_Serving);

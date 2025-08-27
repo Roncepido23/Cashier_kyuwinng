@@ -36,9 +36,10 @@
             // btnRefresh
             // 
             this.btnRefresh.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Location = new System.Drawing.Point(55, 95);
+            this.btnRefresh.Location = new System.Drawing.Point(41, 77);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(146, 42);
+            this.btnRefresh.Size = new System.Drawing.Size(110, 34);
             this.btnRefresh.TabIndex = 0;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Cooper Black", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(55, 155);
+            this.btnNext.Location = new System.Drawing.Point(41, 126);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(146, 42);
+            this.btnNext.Size = new System.Drawing.Size(110, 34);
             this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -59,21 +61,23 @@
             // 
             this.listCashierQueue.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listCashierQueue.FormattingEnabled = true;
-            this.listCashierQueue.ItemHeight = 20;
-            this.listCashierQueue.Location = new System.Drawing.Point(258, 95);
+            this.listCashierQueue.ItemHeight = 16;
+            this.listCashierQueue.Location = new System.Drawing.Point(194, 77);
+            this.listCashierQueue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listCashierQueue.Name = "listCashierQueue";
-            this.listCashierQueue.Size = new System.Drawing.Size(398, 264);
+            this.listCashierQueue.Size = new System.Drawing.Size(300, 212);
             this.listCashierQueue.TabIndex = 2;
             // 
             // CashierWindowQueueForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.SeaShell;
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.listCashierQueue);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnRefresh);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CashierWindowQueueForm";
             this.Text = "CashierWindowQueueForm";
             this.ResumeLayout(false);

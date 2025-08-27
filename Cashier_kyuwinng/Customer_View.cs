@@ -21,5 +21,11 @@ namespace Cashier_kyuwinng
         {
 
         }
+
+        public void Setlabel2_Cashier_Numbering(string msg)
+        {
+           label2_Cashier_Numbering.Text = msg;
+        }
+
     }
 }
