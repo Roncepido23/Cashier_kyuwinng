@@ -38,9 +38,9 @@
             this.label1_Current_Number.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1_Current_Number.Location = new System.Drawing.Point(12, 18);
             this.label1_Current_Number.Name = "label1_Current_Number";
-            this.label1_Current_Number.Size = new System.Drawing.Size(241, 32);
+            this.label1_Current_Number.Size = new System.Drawing.Size(193, 32);
             this.label1_Current_Number.TabIndex = 0;
-            this.label1_Current_Number.Text = "*Current Number";
+            this.label1_Current_Number.Text = "*Now Serving";
             // 
             // label2_Cashier_Numbering
             // 
