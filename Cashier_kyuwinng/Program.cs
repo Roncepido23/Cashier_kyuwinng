@@ -16,7 +16,14 @@ namespace Cashier_kyuwinng
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+
+            var kyuwingForm = new KyuwingForm();
+
+            var cashierQueueForm = new CashierWindowQueueForm();
+            cashierQueueForm.Show();
+
+            Application.Run(kyuwingForm);
         }
     }
 }
