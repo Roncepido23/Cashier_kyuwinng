@@ -14,10 +14,11 @@ namespace Cashier_kyuwinng
 
     public partial class CashierWindowQueueForm: Form
     {
+        Customer_View view = null;
         public CashierWindowQueueForm()
         {
             InitializeComponent();
-
+            
             Timer timer = new Timer();
             timer.Interval = (1 * 1000);
             timer.Tick += new EventHandler(timer1_tick);
@@ -45,7 +46,20 @@ namespace Cashier_kyuwinng
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            CashierClass.CashierQueue.Dequeue();
+            if (CashierClass.CashierQueue.Count > 0)
+            {
+                if (view == null)
+                {
+                    view = new Customer_View();
+                    view.Show();
+                }
+                view.SetIan(CashierClass.CashierQueue.Dequeue());
+            } else
+            {
+                MessageBox.Show("Empty!");
+            }
+
+
         }
     }
 
